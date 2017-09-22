@@ -169,7 +169,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background: $brand-primary;
 }
 
-.gtco-container {
+.container {
 	max-width: 1140px;
 	position: relative;
 	margin: 0 auto;
@@ -177,7 +177,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	padding-right: 15px;
 }
 
-.gtco-nav {
+.nav {
 	position: absolute;
 	top: 0;
 	margin: 0;
@@ -188,7 +188,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	@media screen and (max-width: $screen-sm) {
 		padding: 20px 0;
 	}
-	#gtco-logo {
+	#logo {
 		font-size: 20px;
 		margin: 0;
 		padding: 0;
@@ -311,27 +311,27 @@ h1, h2, h3, h4, h5, h6, figure {
 		}
 	}
 }
-#gtco-header,
-#gtco-counter,
-.gtco-bg {
+#header,
+#counter,
+.bg {
 	background-size: cover;
 	background-position: top center;
 	background-repeat: no-repeat;
 	position: relative;
 }
-.gtco-bg {
+.bg {
 	background-position: center center;
 	width: 100%;
 	float: left;
 	position: relative;
 }
 
-.gtco-video {
+.video {
 	height: 450px;
 	overflow: hidden;
 	margin-bottom: 30px;
 	@include border-radius(7px);
-	&.gtco-video-sm {
+	&.video-sm {
 		height: 250px;
 	}
 	a {
@@ -384,7 +384,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		}
 	}
 }
-.gtco-cover {
+.cover {
 	height: 900px;
 
 	background-size: cover;
@@ -410,7 +410,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		right: 0;
 		background: rgba(0, 0, 0, .4);
 	}
-	> .gtco-container {
+	> .container {
 		position: relative;
 		z-index: 10;
 	}
@@ -427,7 +427,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		}
 	}	
 
-	&.gtco-cover-sm {
+	&.cover-sm {
 		height: 600px;
 		@media screen and (max-width: $screen-sm) {
 			height: 400px;
@@ -443,7 +443,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		}	
 	}
 }
-#gtco-counter {
+#counter {
 	height: 500px;
 	.display-t,
 	.display-tc {
@@ -460,7 +460,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		}
 	}
 }
-.gtco-staff { 
+.staff { 
 	text-align: center;
 	margin-bottom: 30px;
 	img {
@@ -483,7 +483,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 
-.gtco-social-icons {
+.social-icons {
 	margin: 0;
 	padding: 0;
 	li {
@@ -503,7 +503,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 
-.gtco-contact-info {
+.contact-info {
 	margin-bottom: 30px;
 	float: left;
 	width: 100%;
@@ -559,9 +559,9 @@ form {
 }
 
 
-#gtco-header,
-#gtco-counter,
-.gtco-cover {
+#header,
+#counter,
+.cover {
 	.display-tc {
 		display: table-cell!important;
 		vertical-align: middle;
@@ -587,7 +587,7 @@ form {
 		
 	}
 }
-#gtco-counter {	
+#counter {	
 	text-align: center;
 	.counter {
 		font-size: 50px;
@@ -627,13 +627,13 @@ form {
 }
 
 
-#gtco-features,
-#gtco-features-2,
-#gtco-testimonial,
-#gtco-services,
-#gtco-subscribe,
-#gtco-footer,
-.gtco-section {
+#features,
+#features-2,
+#testimonial,
+#services,
+#subscribe,
+#footer,
+.section {
 	padding: 7em 0;
 	clear: both;
 	@media screen and (max-width: $screen-sm) {
@@ -641,7 +641,7 @@ form {
 	}
 }
 
-#gtco-features-2 {
+#features-2 {
 	background: #efefef;
 	position: relative;
 	float: left;
@@ -727,9 +727,9 @@ form {
 }
 
 
-.gtco-heading {
+.heading {
 	margin-bottom: 5em;
-	&.gtco-heading-sm {
+	&.heading-sm {
 		margin-bottom: 2em;
 	}
 	h2 {
@@ -746,7 +746,7 @@ form {
 	}
 }
 
-#gtco-testimonial {
+#testimonial {
 	background: #efefef;
 	.testimony-slide{
 		// display: none;
@@ -801,8 +801,8 @@ form {
 	}
 }
 
-.gtco-tabs {
-	.gtco-tab-nav {
+.tabs {
+	.tab-nav {
 		clear: both;
 		margin: 0 0 3em 0;
 		padding: 3px;
@@ -839,7 +839,7 @@ form {
 			}
 		}
 	}
-	.gtco-tab-content-wrap {
+	.tab-content-wrap {
 		clear: both;
 		position: relative;
 		top: 70px;
@@ -872,10 +872,10 @@ form {
 	}
 }
 
-#gtco-subscribe {
+#subscribe {
 	background: lighten($brand-black, 20%);
 
-	.gtco-heading {
+	.heading {
 		h2 {
 			color: $brand-white;
 		}
@@ -932,7 +932,7 @@ form {
 			}
 		}
 	}
-	.gtco-heading {
+	.heading {
 		margin-bottom: 30px;
 		h2 {
 			margin-bottom: 0;
@@ -940,8 +940,8 @@ form {
 	}
 }
 
-#gtco-footer {
-	.gtco-footer-links {
+#footer {
+	.footer-links {
 		padding: 0;
 		margin: 0 0 20px 0;	
 		float: left;
@@ -960,7 +960,7 @@ form {
 			}
 		}
 	}
-	.gtco-widget {
+	.widget {
 		margin-bottom: 30px;
 		h3 {
 			margin-bottom: 15px;
@@ -1008,7 +1008,7 @@ form {
 }
 
 // off canvas
-#gtco-offcanvas {
+#offcanvas {
 	position: absolute;
 	z-index: 1901;
 	width: 270px;
@@ -1114,7 +1114,7 @@ form {
 
 
 // Burger Menu
-.gtco-nav-toggle {
+.nav-toggle {
   width:25px;
   height:25px;
   cursor: pointer;
@@ -1149,7 +1149,7 @@ form {
 		  transition:all .2s ease-out;
 	  }
   }
-  &.gtco-nav-white {
+  &.nav-white {
   	> i {
   		color:$brand-white;
   		background: $brand-white;
@@ -1160,22 +1160,22 @@ form {
   }
 }
 
-.gtco-nav-toggle i::before {
+.nav-toggle i::before {
   top: -7px;
 }
-.gtco-nav-toggle i::after {
+.nav-toggle i::after {
   bottom: -7px;
 }
-.gtco-nav-toggle:hover i::before {
+.nav-toggle:hover i::before {
   top: -10px;
 }
-.gtco-nav-toggle:hover i::after {
+.nav-toggle:hover i::after {
   bottom: -10px;
 }
-.gtco-nav-toggle.active i {
+.nav-toggle.active i {
 	background: transparent;
 }
-.gtco-nav-toggle.active i::before {
+.nav-toggle.active i::before {
   top:0;
   -webkit-transform: rotateZ(45deg);
      -moz-transform: rotateZ(45deg);
@@ -1183,7 +1183,7 @@ form {
        -o-transform: rotateZ(45deg);
           transform: rotateZ(45deg);
 }
-.gtco-nav-toggle.active i::after {
+.nav-toggle.active i::after {
   bottom:0;
   -webkit-transform: rotateZ(-45deg);
      -moz-transform: rotateZ(-45deg);
@@ -1191,7 +1191,7 @@ form {
        -o-transform: rotateZ(-45deg);
           transform: rotateZ(-45deg);
 }
-.gtco-nav-toggle {
+.nav-toggle {
   position: absolute;
   right: 0px;
   top: 10px;
@@ -1397,7 +1397,7 @@ form {
 	padding-bottom: 2em!important;
 }
 
-.gtco-loader {
+.loader {
 	position: fixed;
 	left: 0px;
 	top: 0px;
