@@ -1,2 +1,2 @@
-# tkixi.github.com
-Personal website
+# tkixi.github.io
+Personal website : http://www.gijung-kim.com
